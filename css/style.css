@@ -1,41 +1,35 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(1, 57, 67);
-    display: flex;
     align-items: center;
+    background-color: rgb(1, 57, 67);
 }
 
 .box {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%) ;
     width: 300px;
+    height: 380px;
     padding: 0.5em;
-    display: flex;
-    flex-direction: column;
     background-color: rgb(99, 99, 99);
     border-radius: 5px;
 }
 
-fieldset {
-    border: 1px solid black;
-    border-radius: 5px;
-}
 
 .display {
+    text-align:right;
     margin-bottom: 10px;
+    height: 50px;
+    overflow-wrap: break-word;
     background-color: whitesmoke;
-    padding: 18px;
-    width: 100%px;
-    height: 30px;
     border: 1px solid transparent;
     box-shadow: 3px 2px 0 #222, -1px 1px 0 #000;
-    overflow-wrap: break-word;
 }
 
 .container-Btn {
